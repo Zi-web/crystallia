@@ -518,6 +518,8 @@ template {
 }
 .item3 {
   color: #ffffff;
+  flex-direction: column;
+  margin: 0 auto;
 }
 .messagebox {
   font-family: 'Digital-Serial-Bold', Arial;
