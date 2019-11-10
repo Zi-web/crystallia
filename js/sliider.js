@@ -49,11 +49,11 @@ $('#cf_onclick').click(function() {
   },2000);
 
   setTimeout(function(){
-    $(".item1").css("opacity","1");
+    $(".item2").css("opacity","1");
   },3000);
 
   setTimeout(function(){
-    $(".item2").css("opacity","1");
+    $(".item1").css("opacity","1");
   },5000);
 
   setTimeout(function(){
