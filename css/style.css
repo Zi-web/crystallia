@@ -592,8 +592,8 @@ template {
 	box-sizing: border-box;*/
   display: none;
   /*font-size: 15px;*/
-  -webkit-animation: anim 0.7s;
-          animation: anim 0.7s;
+  -webkit-animation: anim 0.5s;
+          animation: anim 0.5s;
   -webkit-animation-duration: 10s;
           animation-duration: 10s;
   background: #ffffff;
@@ -708,6 +708,7 @@ template {
 .slide {
   margin: 0 auto;
   width: 80%;
+  padding-left: 10px;
 }
 .item4 {
   color: #ffffff;
@@ -1069,7 +1070,7 @@ template {
   }
   .main__wrapper {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -1139,6 +1140,10 @@ template {
     position: relative;
     background-color: transparent;
   }
+  .item4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 412px) {
   .item1 {
@@ -1152,7 +1157,6 @@ template {
   }
   .item3 {
     font-size: 12px;
-    /*height: 35vh;*/
   }
   .btn {
     max-width: 220px;
@@ -1196,5 +1200,8 @@ template {
   .popup-consultation__descr {
     font-size: 16px;
     margin-bottom: 10px;
+  }
+  .message {
+    font-size: 12px;
   }
 }
