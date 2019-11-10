@@ -5,7 +5,9 @@
     <title>Crystallia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="http://kenwheeler.github.io/slick/slick/slick-theme.css">
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -13,93 +15,141 @@
       $(document).ready(function(){
         $('.slick-slider').slick();
       });
-    </script>
+    </script>--->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   </head>
   <body>
-    <div class="shadow" id="cf2">
-    <section class="main">
-      <div class="main__wrapper" id="cf_onclick">
-      <a href="#">
-       <img src="img/logo.png" alt="">
-      </a>
-      <div class="glow-wrap">
-        <i class="glow"></i>
-      </div>
-      </div>
-    </section> 
-    <section class="content">
-      <div class="content__video">
-          <video autoplay muted loop style="display: flex; min-width: 100%; 
-  min-height: 100%">
-          <source src="img/bg-video.mp4" type="video/mp4">
-          </video>
+    <div class="wrapper" id="cf2">
+      <section class="main">
+        <div class="main__wrapper" id="cf_onclick">
+       
+         <img src="img/logo.png" alt="">
+      
+        <div class="glow-wrap">
+          <i class="glow"></i>
         </div>
-      <div class="content__wrapper">
-        <div class="content__logo">
-          <img src="img/logo-small.png" alt="logo" width="60" height="60">
         </div>
-        <div class="item  item1">
-          <p>Why hire Crystallia Custom Finishing Corp.?</p>
-          <ul>
-          <li>- Specialists in custom exterior finishing work</li>
-          <li>- High quality of craftsmanship </li>
-          <li>- Time management / on-time project completion.</li>
-          </ul>
-        </div>
-        <div class="item  item2">
-          <p>Market leader in exterior finishing of custom single family residential homes in Vancouver since 2008.</p>
-        </div>
-        <div class="item  item3">
-          <h3>Testimonials</h3>
-          <div class="slick-slider">
-            <div>
-            <p>Good evening Vlad, below is testimonial.</p>
-            <p>I have worked with Vladimir and the Cristallia team on many projects over the years.
-            They are very professional and have consistently delivered a premium level of finishing for our custom residential home projects. I would be confident in recommending them for your interior or exterior finishing needs.</p>
-            <p>Hugh Ho</p>
-            <p>Director of Yang Enterprises Ltd.</p>
-            </div>
-            <div>
-            <p>Crystalia Finishing has been our exterior contracting finisher for  the past several years.</p>
-            <p>All employees are professional, knowledgeable, respectful, efficient, timely, and finish the job to the highest standards  and utmost satisfaction of the client.
-            Having them on our projects is always a pleasure and guaranteed result.</p>
-            <p>D.Basso</p>
-            <p>Site Supervisor</p>
-            </div>
+      </section> 
+      <section class="content">
+        <div class="content__wrapper">
+          <div class="content__video">
+            <video autoplay muted loop style="display: flex; min-width: 100%; 
+    min-height: 100%">
+            <source src="img/bg-video.mp4" type="video/mp4">
+            </video>
           </div>
-        </div>
-        <div class="item  item4">
-          <p>What is the cost to do the exterior finishing on your house?</p>
-
-
-          <p>Get in touch with our estimator via phone/ email.
-          The estimator will do a take of, make suggestions, have a final quote submitted for a client. 
-          </p>
-          <button class="btn  item4__btn">Call estimator.</button>
-          <div>
-            <p>Contact estimator via text message / messenger. <br>
-              <a class="item4__tel" href="tel:16048087409">+16048087409</a></p>
-          </div>
-        </div>
-        <div id="newMessage" class="messagebox">
-           <img src="img/icon-letter.png" alt="">
-          <div id="popup" class="messagebox__text">
+          <div class="content__1280  line">
+            <div class="content__logo">
+              <img src="img/logo-small.png" alt="logo" width="60" height="60">
+            </div>
+            <div class="item  item1">
+              <p>Why hire Crystallia Custom Finishing Corp.?</p>
+              <ul>
+              <li>- Specialists in custom exterior finishing work</li>
+              <li>- High quality of craftsmanship </li>
+              <li>- Time management / on-time project completion.</li>
+              </ul>
+            </div>
+            <div class="item  item2">
+              <p>Market leader in exterior finishing of custom single family residential homes in Vancouver since 2008.</p>
+            </div>
+            <div class="item  item3">
+              <h3>Testimonials</h3>
+              <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slide">
+                  <p>Good evening Vlad, below is testimonial.</p>
+                  <p>I have worked with Vladimir and the Cristallia team on many projects over the years.
+                  They are very professional and have consistently delivered a premium level of finishing for our custom residential home projects. I would be confident in recommending them for your interior or exterior finishing needs.</p>
+                  <p>Hugh Ho</p>
+                  <p>Director of Yang Enterprises Ltd.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <p>Crystalia Finishing has been our exterior contracting finisher for  the past several years.</p>
+                  <p>All employees are professional, knowledgeable, respectful, efficient, timely, and finish the job to the highest standards  and utmost satisfaction of the client.
+                  Having them on our projects is always a pleasure and guaranteed result.</p>
+                  <p>D.Basso</p>
+                  <p>Site Supervisor</p>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+          <!---  <div class="swiper-pagination"></div>
+--->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+         
             
-            <p>
-              Crystallia Custom Finishing Corp. is a high-end exterior finishing company specializing on custom single family residential homes in Vancouver, British Columbia, Canada.</p>
-              <p>The Company started its operations on the North Shore in the early spring of 2008. Ever since the Company has built a unique DNA structure defined by its core values: Integrity, Exceptional Quality, Time Management.</p>
-              <p>Crystallia attributes its success to the vast Network of clients, partners, suppliers, city inspectors, architects, designers, on site ops. The real value of the Company has been created over the years, symbolizing a unique product in constantly evolving diverse construction market.</p>
-              <p>We are proud to build Live Quality homes for Vancouver’s future generations.</p>
-              <p>Vladimir & Dimitri Zadorojnyi</p>
+        </div>
+        <!---
+              <div class="slick-slider">
+                <div>
+                <p>Good evening Vlad, below is testimonial.</p>
+                <p>I have worked with Vladimir and the Cristallia team on many projects over the years.
+                They are very professional and have consistently delivered a premium level of finishing for our custom residential home projects. I would be confident in recommending them for your interior or exterior finishing needs.</p>
+                <p>Hugh Ho</p>
+                <p>Director of Yang Enterprises Ltd.</p>
+                </div>
+                <div>
+                <p>Crystalia Finishing has been our exterior contracting finisher for  the past several years.</p>
+                <p>All employees are professional, knowledgeable, respectful, efficient, timely, and finish the job to the highest standards  and utmost satisfaction of the client.
+                Having them on our projects is always a pleasure and guaranteed result.</p>
+                <p>D.Basso</p>
+                <p>Site Supervisor</p>
+                </div>
+              </div>
+              --->
+            </div>
+            <div class="item  item4">
+              <p>What is the cost to do the exterior finishing on your house?</p>
 
-            </p>
+
+              <p>Get in touch with our estimator via phone/ email.
+              The estimator will do a take of, make suggestions, have a final quote submitted for a client. 
+              </p>
+              <button class="btn  item4__btn">Call estimator</button>
+              <div>
+                <p>Contact estimator via text message / messenger. <br>
+                  <a class="item4__tel" href="tel:16048087409">+16048087409</a></p>
+              </div>
+            </div>
+            <div id="newMessage" class="messagebox">
+               <img src="img/icon-letter.png" alt="">
+            <!--  <div id="popup" class="messagebox__text">  
+                <p>Crystallia Custom Finishing Corp. is a high-end exterior finishing company specializing on custom single family residential homes in Vancouver, British Columbia, Canada.</p>
+                  <p>The Company started its operations on the North Shore in the early spring of 2008. Ever since the Company has built a unique DNA structure defined by its core values: Integrity, Exceptional Quality, Time Management.</p>
+                  <p>Crystallia attributes its success to the vast Network of clients, partners, suppliers, city inspectors, architects, designers, on site ops. The real value of the Company has been created over the years, symbolizing a unique product in constantly evolving diverse construction market.</p>
+                  <p>We are proud to build Live Quality homes for Vancouver’s future generations.</p>
+                  <p>Vladimir & Dimitri Zadorojnyi</p>
+              </div>--->
+            </div>
+
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </div>
+
+  <div class="modal-content__message  modal-content">
+  <div class="popup-consultation__message">
+    <span class="message__close"></span>
+    <div class="message">
+      <p>Crystallia Custom Finishing Corp. is a high-end exterior finishing company specializing on custom single family residential homes in Vancouver, British Columbia, Canada.</p>
+                  <p>The Company started its operations on the North Shore in the early spring of 2008. Ever since the Company has built a unique DNA structure defined by its core values: Integrity, Exceptional Quality, Time Management.</p>
+                  <p>Crystallia attributes its success to the vast Network of clients, partners, suppliers, city inspectors, architects, designers, on site ops. The real value of the Company has been created over the years, symbolizing a unique product in constantly evolving diverse construction market.</p>
+                  <p>We are proud to build Live Quality homes for Vancouver’s future generations.</p>
+                  <p>Vladimir & Dimitri Zadorojnyi</p>
+    </div>
+  </div>
+  </div>
 
   <div class="popup-consultation  modal-content">
   <div class="popup-consultation__form">
@@ -121,6 +171,37 @@
     </form>  
   </div>
 </div>
+<script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script>
+    // Import Swiper and modules
+//import { Swiper, Navigation, Pagination, Scrollbar } from './swiper/js/swiper.esm.js';
+
+// Install modules
+//Swiper.use([Navigation, Pagination]);
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+  
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      /*type : 'custom',*/
+      bulletClass: 'swiper-pagination-bullet',
+      bulletActiveClass: 'swiper-pagination-bullet-active',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+  })
+  </script>
   
   <script type="text/javascript" src="js/sliider.js"></script>
   <script type="text/javascript" src="js/popap.js"></script>
