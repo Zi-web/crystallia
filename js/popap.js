@@ -48,12 +48,8 @@
         var link2 = document.querySelector('#newMessage');
         var popup2 = document.querySelector('.popup-consultation__message');
         var close2 = popup2.querySelector('.message__close');
-        /*var form = popup.querySelector('form');
-        var tel = popup.querySelector('[name=tel]');
-        var name = popup.querySelector('[name=name]');
-        var message = popup.querySelector('[name=message]');
-        var storage = localStorage.getItem('tel');*/
         var overlay2 = document.querySelector('.modal-content__message');
+
 
 
         link2.addEventListener('click', function(event) {
@@ -61,12 +57,6 @@
             popup2.classList.add('modal-content__login-show2');
             overlay2.classList.add('modal-content__overlay-show2');
             
-            /*if (storage) {
-                tel.value = storage;
-                name.focus();
-            } else {
-                tel.focus();
-            }*/
         });
 
         close2.addEventListener('click', function(event) {
