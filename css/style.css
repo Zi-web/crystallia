@@ -318,6 +318,7 @@ template {
   align-items: center;
   background-image: url("../img/1.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   overflow-y: hidden;
   z-index: 1;
 }
@@ -437,6 +438,9 @@ template {
   opacity: 0;
   /*z-index: 1;*/
   transition: all 0.4s linear;
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .show {
   transition: all 0.4s linear;
